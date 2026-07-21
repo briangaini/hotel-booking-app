@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ** CRITICAL DEBUGGING CODE: This forces the #root element to be visible **
+  It should be added AFTER the Tailwind imports. 
+*/
+#root {
+  min-height: 100vh;
+  background-color: lightgray; 
+}
